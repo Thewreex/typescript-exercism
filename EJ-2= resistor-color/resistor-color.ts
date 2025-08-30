@@ -1,4 +1,4 @@
-export const COLORS = [
+export const COLORS = [ //array de colores 
       'black',
       'brown',
       'red',
@@ -12,7 +12,7 @@ export const COLORS = [
     ]
 
 export const colorCode = (color: string): number => {
-  return COLORS.indexOf(color);
+  return COLORS.indexOf(color); //retorna el indice del color que se recibe como parametro
 }
 
 
